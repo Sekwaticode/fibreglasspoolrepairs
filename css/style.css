@@ -1885,8 +1885,17 @@ a:focus {
     opacity: 0;
 }
 
+.portfolio .portfolio-overlay .portfolio-img img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+    width: 400px;
+    height: 300px;
+}
 .portfolio .portfolio-warp:hover .portfolio-overlay {
     opacity: 1;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio .portfolio-overlay p {

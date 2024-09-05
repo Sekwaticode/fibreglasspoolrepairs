@@ -69,7 +69,7 @@
             })
 
             $('#videoModal').on('hide.bs.modal', function (e) {
-                $("#video").attr('src', $videoSrc);
+                $("#video").attr('src', '');
             })
         });
 

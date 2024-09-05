@@ -2144,7 +2144,9 @@ a:focus {
     margin-top: 20px;
 }
 
-.footer .footer-social a {
+.footer .footer-social a,
+.footer .footer-social svg
+{
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -2153,19 +2155,28 @@ a:focus {
     border: 1px solid rgba(256, 256, 256, .3);
     border-radius: 60px;
     transition: .3s;
+
 }
 
-.footer .footer-social a i {
+.footer .footer-social a i,
+.footer .footer-social svg 
+ {
     font-size: 15px;
     color: #ffffff;
+    fill: currentColor;
+
 }
 
-.footer .footer-social a:hover {
+.footer .footer-social a:hover,
+.footer .footer-social svg:hover
+ {
     background: #00acee;
     border-color: #00acee;
 }
 
-.footer .footer-social a:hover i {
+.footer .footer-social a:hover i,
+.footer .footer-social svg:hover i
+{
     color: #030f27;
 }
 
